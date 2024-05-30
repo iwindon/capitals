@@ -76,7 +76,7 @@ def quiz_game():
         elif user_input == capital.lower():
             print(f"{Fore.GREEN}{Style.BRIGHT}Correct!\n")
         else:
-            print(f"{Fore.RED}{Style.DIM}Oops! The correct answer is {capital}.\n")
+            print(f"{Fore.RED}{Style.BRIGHT}Oops! The correct answer is {capital}.\n")
 
 if __name__ == "__main__":
     quiz_game()
